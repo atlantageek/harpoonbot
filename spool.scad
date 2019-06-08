@@ -1,3 +1,4 @@
+module drawSpool() {
 difference() {
     union() {
       cylinder(3,d1=29,d2=40);
@@ -13,3 +14,5 @@ difference() {
     translate([7,0,0]) cylinder(9,d=3);
     translate([-10,0,20]) rotate([0,90,0])cylinder(30, d=2);
 }
+}
+drawSpool();

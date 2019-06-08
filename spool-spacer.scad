@@ -1,3 +1,4 @@
+module drawSpoolSpacer() {
 difference() {
 union() {
     translate([-3,-2,0])cube([6,4,10]);
@@ -9,5 +10,7 @@ union() {
     translate([0,4,0]) cylinder(6,d=3,true);
     translate([0,-4,0]) cylinder(6,d=3,true);
 }
+}
 
+drawSpoolSpacer();
 

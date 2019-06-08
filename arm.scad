@@ -22,9 +22,9 @@ module side(bearingholesize, gearholesize, sidesize) {
 //rotate([90,0,0]) side();
 
 
-module arm() {
+module drawArm() {
     
-    translate([-10,-3.5,-10])difference() {
+    translate([10,0,-9])difference() {
         union() {
             side(6.2,2.9,3);
             //translate([0,10,0]) side(7,2.5,2);
@@ -33,4 +33,4 @@ module arm() {
         translate([-13,0,26]) rotate([90,0,0]) cylinder(32,2,2,true);
     }
 }
-rotate([90,0,0])arm();
+rotate([90,0,0])drawArm();

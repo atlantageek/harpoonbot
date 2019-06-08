@@ -12,7 +12,7 @@
 //    color([0,0,1])rotate([0,90,0])translate([-13,20,1])cylinder(28,d1=4,d2=4);
 //}
 
-
+module drawTrigger() {
 difference() {
   union() {
     //left arm
@@ -39,3 +39,6 @@ difference() {
   //rotate([90,0,0])translate([25,10,-20])cylinder(40,d1=4,d2=4);
   rotate([90,0,0])translate([-15,6.5,-20])cylinder(40,d1=4,d2=4);
 }
+}
+
+drawTrigger();

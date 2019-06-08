@@ -1,3 +1,4 @@
+module drawServoSpool() {
 difference() {
     union() {
       cylinder(4,d=20);
@@ -14,4 +15,5 @@ difference() {
     translate([8,0,1]) cylinder(9,d=4);
     translate([-4,0,1]) cylinder(9,d=2);
     translate([4,0,1]) cylinder(9,d=2);
+}
 }
